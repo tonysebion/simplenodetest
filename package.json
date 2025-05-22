@@ -1,0 +1,19 @@
+{
+  "name": "simplenodetest",
+  "version": "0.1.0",
+  "description": "A simple Node server using figlet (MIT licensed) as a CLI tool",
+  "main": "server.js",
+  "bin": {
+    "my-node-server": "./server.js"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "figlet": "^1.5.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
+
